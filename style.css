@@ -1,0 +1,38 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.countdown {
+  display: flex;
+  background-color: #05ad4b;
+  padding: 30px 0;
+  width: 100vw;
+  justify-content: center;
+  gap: 13px;
+}
+
+.countdown-item {
+  /* border: 2px solid #027030; */
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 25px 15px;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
